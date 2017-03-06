@@ -13,7 +13,7 @@ let data  = Data(bytes: [0x01, 0x02, 0x03])
 let bytes = data.bytes
 let bytesHex    = Array<UInt8>(hex: "0x010203")
 let hexString   = bytesHex.toHexString()
-
+let testData = "hello"
 /*:
  # Digest
  */
@@ -23,6 +23,7 @@ data.sha224()
 data.sha256()
 data.sha384()
 data.sha512()
+testData.sha1()
 
 bytes.sha1()
 "123".sha1()

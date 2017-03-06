@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA62D7EC1E6DEA1F003AEA98 /* Cryptoswift in Resources */ = {isa = PBXBuildFile; fileRef = AA62D7EB1E6DEA1F003AEA98 /* Cryptoswift */; };
 		AA62D7EE1E6DEA3C003AEA98 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA62D7ED1E6DEA3C003AEA98 /* CryptoSwift.framework */; };
 		AA62D7EF1E6DEA3C003AEA98 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA62D7ED1E6DEA3C003AEA98 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AAAEB3F31E68556600996BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB3F21E68556600996BC5 /* AppDelegate.swift */; };
@@ -51,7 +50,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AA62D7EB1E6DEA1F003AEA98 /* Cryptoswift */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cryptoswift; sourceTree = "<group>"; };
 		AA62D7ED1E6DEA3C003AEA98 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Cryptoswift/CryptoSwift.framework; sourceTree = "<group>"; };
 		AA62D7F11E6DEB4C003AEA98 /* 2FA Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2FA Test.playground"; sourceTree = "<group>"; };
 		AAAEB3EF1E68556600996BC5 /* 2 Factor Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2 Factor Authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +102,6 @@
 				AAAEB4061E68556700996BC5 /* 2 Factor AuthenticationTests */,
 				AAAEB4111E68556700996BC5 /* 2 Factor AuthenticationUITests */,
 				AAAEB3F01E68556600996BC5 /* Products */,
-				AA62D7EB1E6DEA1F003AEA98 /* Cryptoswift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAEB3FD1E68556600996BC5 /* LaunchScreen.storyboard in Resources */,
-				AA62D7EC1E6DEA1F003AEA98 /* Cryptoswift in Resources */,
 				AAAEB3FA1E68556600996BC5 /* Assets.xcassets in Resources */,
 				AAAEB3F81E68556600996BC5 /* Main.storyboard in Resources */,
 			);
