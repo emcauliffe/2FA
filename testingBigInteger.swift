@@ -6,7 +6,7 @@
 //  Copyright © 2017 Ethan. All rights reserved.
 //
 
-import Foundation
-
-var test = 12
-let testBig = BInt(test)
+//import Foundation
+//
+//var test = 12
+//let testBig = BInt(test)
