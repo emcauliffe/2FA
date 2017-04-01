@@ -30,6 +30,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="7AI-gJ-RTl"/>
             </objects>
+            <point key="canvasLocation" x="-238" y="26"/>
         </scene>
     </scenes>
 </document>

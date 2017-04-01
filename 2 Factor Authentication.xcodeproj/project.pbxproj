@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA42E5411E8EDBFC0060EA51 /* bigNumbers in Resources */ = {isa = PBXBuildFile; fileRef = AA42E5401E8EDBFC0060EA51 /* bigNumbers */; };
 		AA62D7EE1E6DEA3C003AEA98 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA62D7ED1E6DEA3C003AEA98 /* CryptoSwift.framework */; };
 		AA62D7EF1E6DEA3C003AEA98 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA62D7ED1E6DEA3C003AEA98 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AAAEB3F31E68556600996BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB3F21E68556600996BC5 /* AppDelegate.swift */; };
 		AAAEB3F51E68556600996BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB3F41E68556600996BC5 /* ViewController.swift */; };
 		AAAEB3F81E68556600996BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAEB3F61E68556600996BC5 /* Main.storyboard */; };
 		AAAEB3FA1E68556600996BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAEB3F91E68556600996BC5 /* Assets.xcassets */; };
-		AAAEB3FD1E68556600996BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAEB3FB1E68556600996BC5 /* LaunchScreen.storyboard */; };
 		AAAEB4081E68556700996BC5 /* __Factor_AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB4071E68556700996BC5 /* __Factor_AuthenticationTests.swift */; };
 		AAAEB4131E68556700996BC5 /* __Factor_AuthenticationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB4121E68556700996BC5 /* __Factor_AuthenticationUITests.swift */; };
+		AAF582561E9058210086C497 /* testingBigInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF582551E9058210086C497 /* testingBigInteger.swift */; };
+		AAF582581E905A470086C497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF582571E905A470086C497 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA42E5401E8EDBFC0060EA51 /* bigNumbers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bigNumbers; sourceTree = "<group>"; };
 		AA62D7ED1E6DEA3C003AEA98 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Cryptoswift/CryptoSwift.framework; sourceTree = "<group>"; };
 		AA62D7F11E6DEB4C003AEA98 /* 2FA Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2FA Test.playground"; sourceTree = "<group>"; };
 		AAAEB3EF1E68556600996BC5 /* 2 Factor Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2 Factor Authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +60,6 @@
 		AAAEB3F41E68556600996BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAAEB3F71E68556600996BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAAEB3F91E68556600996BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AAAEB3FC1E68556600996BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAAEB3FE1E68556600996BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAAEB4031E68556700996BC5 /* 2 Factor AuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2 Factor AuthenticationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAEB4071E68556700996BC5 /* __Factor_AuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Factor_AuthenticationTests.swift; sourceTree = "<group>"; };
@@ -65,6 +67,8 @@
 		AAAEB40E1E68556700996BC5 /* 2 Factor AuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2 Factor AuthenticationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAEB4121E68556700996BC5 /* __Factor_AuthenticationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Factor_AuthenticationUITests.swift; sourceTree = "<group>"; };
 		AAAEB4141E68556700996BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF582551E9058210086C497 /* testingBigInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testingBigInteger.swift; sourceTree = "<group>"; };
+		AAF582571E905A470086C497 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		AAAEB3E61E68556600996BC5 = {
 			isa = PBXGroup;
 			children = (
+				AAF582551E9058210086C497 /* testingBigInteger.swift */,
+				AA42E5401E8EDBFC0060EA51 /* bigNumbers */,
 				AA62D7F11E6DEB4C003AEA98 /* 2FA Test.playground */,
 				AA62D7ED1E6DEA3C003AEA98 /* CryptoSwift.framework */,
 				AAAEB3F11E68556600996BC5 /* 2 Factor Authentication */,
@@ -121,8 +127,8 @@
 				AAAEB3F21E68556600996BC5 /* AppDelegate.swift */,
 				AAAEB3F41E68556600996BC5 /* ViewController.swift */,
 				AAAEB3F61E68556600996BC5 /* Main.storyboard */,
+				AAF582571E905A470086C497 /* LaunchScreen.storyboard */,
 				AAAEB3F91E68556600996BC5 /* Assets.xcassets */,
-				AAAEB3FB1E68556600996BC5 /* LaunchScreen.storyboard */,
 				AAAEB3FE1E68556600996BC5 /* Info.plist */,
 			);
 			path = "2 Factor Authentication";
@@ -257,7 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAAEB3FD1E68556600996BC5 /* LaunchScreen.storyboard in Resources */,
+				AA42E5411E8EDBFC0060EA51 /* bigNumbers in Resources */,
+				AAF582581E905A470086C497 /* LaunchScreen.storyboard in Resources */,
 				AAAEB3FA1E68556600996BC5 /* Assets.xcassets in Resources */,
 				AAAEB3F81E68556600996BC5 /* Main.storyboard in Resources */,
 			);
@@ -284,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF582561E9058210086C497 /* testingBigInteger.swift in Sources */,
 				AAAEB3F51E68556600996BC5 /* ViewController.swift in Sources */,
 				AAAEB3F31E68556600996BC5 /* AppDelegate.swift in Sources */,
 			);
@@ -327,14 +335,6 @@
 				AAAEB3F71E68556600996BC5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AAAEB3FB1E68556600996BC5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAAEB3FC1E68556600996BC5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
